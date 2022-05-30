@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.contenedortotal{
+    height: 100vh;
+
+} 
+
+.contenedorsubtotal{
+    position: relative;
+    z-index: 1;
+}
+
+.contenedorlogoynav{
+    width: 80%;
+    margin: auto;
+}
+
+.contenedorsubtotal> .contenedorlogoynav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo > img{
+    color: rgb(185, 18, 18);
+    width: 70px;
+    padding-left: 1px;
+    margin-left: -120px;
+    margin-top: 5px;
+    cursor: pointer;
+    
+}
+
+.navbar > ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar > ul > li{
+    margin-right: 130px;
+}
+
+.navbar > ul> li> a{
+    color: rgba(255, 255, 255, 0.849);
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Jim Nightshade';
+    font-size: 25px;
+    opacity: 1;
+    
+}
+
+
+.cajavideo > video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.buttongetalbum{
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100vh;
+    padding-bottom: 30px;
+    
+}
+
+.buttongetalbum > a > button{
+    color: rgba(255, 255, 255, 0.849);
+    padding: 15px 23px;
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Jim Nightshade';
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 2px 0px 32px -3px rgba(247,238,238,0.79);
+      -webkit-box-shadow: 2px 0px 32px -3px rgba(247,238,238,0.79);
+      -moz-box-shadow: 2px 0px 32px -3px rgba(247,238,238,0.79); 
+      background: transparent;
+      border: 1px solid white;
+      animation: blink 1s infinite alternate;
+}
+@keyframes blink {
+    0%{
+        opacity:.3;
+    }
+    50%{ opacity: 2;}
+    
+    100%{
+        opacity:0,5;
+    }
+}
